@@ -16,7 +16,7 @@
 
   .header__logo-place {
     position: absolute;
-    background-image: url(../first-project/images/logo_place_header.svg);
+    background-image: url(../images/logo_place_footer.svg);
     top: 30px;
     left: 64px;
     width: 228px;
@@ -45,6 +45,10 @@
     font-weight: normal;
   }
 
+  .link {
+    text-decoration: none;
+  }
+
   .header__title-flex {
     height: 100%;
     width: 100%;
@@ -54,7 +58,7 @@
 
   .header__main-illustration {
     position: absolute;
-    background-image: url(../first-project/images/two_again.png);
+    background-image: url(../images/header-image.png);
     width: 765px;
     height: 608px;
     z-index: 2;
@@ -207,7 +211,7 @@
 
 
   .feynman__image {
-    background-image: url(../first-project/images/feynman.png);
+    background-image: url(../images/feynman.png);
     position: absolute;
     width: 867px;
     height: 637px;
@@ -230,6 +234,7 @@
     font-size: 36px;
     font-weight: normal;
     color: #2f80ed;
+    text-decoration: none;
 
   }
 
@@ -316,14 +321,11 @@
   }
 
   .table__cell_theme_dark {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
     margin-top: 80px;
   }
 
   .triangle {
-    background-image: url(../first-project/images/kaufman-triangle.svg);
+    background-image: url(../images/kaufman-triangle.svg);
     position: absolute;
     width: 877px;
     height: 877px;
@@ -378,7 +380,7 @@
   }
 
   .footer__logo-place {
-    background-image: url(../first-project/images/logo_place_footer.svg);
+    background-image: url(../images/logo_place_footer.svg);
     width: 228px;
     height: 32px;
   }
@@ -416,14 +418,14 @@
 
 
   .social-icon_y {
-    background-image: url(../first-project/images/youtube-icon.svg);
+    background-image: url(../images/youtube-icon.svg);
     background-size: cover;
     width: 16px;
     height: 16px;
   }
 
   .social-icon_v {
-    background-image: url(../first-project/images/vk_color_white.svg);
+    background-image: url(../images/vk_color_white.svg);
     background-size: cover;
     width: 16px;
     height: 16px;
@@ -431,7 +433,7 @@
 
 
   .social-icon_t {
-    background-image: url(../first-project/images/tiktok-icon.svg);
+    background-image: url(../images/tiktok-icon.svg);
     background-size: cover;
     width: 16px;
     height: 16px;
@@ -445,4 +447,6 @@
 
   .footer__social_icon_text {
     color: white;
+    text-decoration: none;
+    margin-left: 10px;
   }
