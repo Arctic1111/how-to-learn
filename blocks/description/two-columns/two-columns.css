@@ -4,5 +4,9 @@
     position: relative;
     justify-content: space-between;
     width: 80%;
-    margin-top: 100px;
+}
+
+
+.two-columns:last-child {
+    margin-top:160px;
 }
